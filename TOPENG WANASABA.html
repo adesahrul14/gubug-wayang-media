@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Judul Halaman -->
+    <title>TOPENG WONOSOBO</title>
+
+    <!-- Menampilkan icon ke jduul halaman -->
+    <link rel="icon" href="gambar/gubug.jpg">
+
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+
+    <style>
+        body {
+            /* mengubah ke tengah */
+            text-align: center;
+            /* warna background body */
+            /* background-color: black; */
+            background-image: url(gambar/batik.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .kotak {
+            /* melengkungkan kotak */
+            border-radius: 20px;
+            /* mengatur lebar kotak */
+            width: 650px;
+            /* garis tepi kotak || 
+                1px => ketebalan garis
+                solid => tipe garis
+                black => warna garis
+            */
+            /* border: 1px solid black; */
+            /* menengahkan kotak */
+            margin: auto;
+            /* memberi jarak kotak dengan konten */
+            padding: 20px;
+            /* memberi warna background kotak */
+            background-color: rgb(146, 0, 0);
+            /* warna teks */
+            color: white;
+        }
+        
+        p {
+            /* ukuran huruf */
+            font-size: 14px;
+            /* mengatur jarak antar baris teks */
+            line-height: 24px;
+        }
+        
+        .gambar {
+            /* mensejajarkan 2 element || contoh : gambar dan tulisan */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* memberi jarak dengan bawah  */
+            margin-bottom: 20px;
+            /* memberi jarak dengan atas */
+            margin-top: 20px;
+        }
+        
+        .nama {
+            /* warna teks gubung wayang */
+            color: white;
+        }
+        
+        iframe {
+            /* Melengkungkan kotak video */
+            border-radius: 20px;
+        }
+        /* Media Sosial */
+        
+        .mediasosial {
+            width: 100%;
+            color: white;
+            /* biar ke samping */
+            display: grid;
+            /* membagi menjadi 3 kolom */
+            grid-template-columns: auto auto auto;
+            /* Memberi jarak dengan kotak atas */
+            margin-top: 80px;
+        }
+        .mediasosial{
+            background-color: rgb(146, 0, 0);
+            border-radius: 10px;
+
+        }
+        .media p {
+            margin-top: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gambar">
+        <img src="gambar/gubug.png" width="70px" alt="" srcset="">
+        <h1 class="nama">GUBUG WAYANG MEDIA</h1>
+    </div>
+
+    <!-- Kotak judul , deskripsi dan youtube video || pakai Div element || . -->
+    <div class="kotak">
+
+        <!-- Judul pakai H1 -->
+        <h1>TOPENG WONOSOBO</h1>
+
+        <!-- Deskripsi -->
+        <p>
+            TOPENG WONOSOBO
+
+             Topeng ini biasa disebut Topeng Lengger Wonosobo.  Tari topeng lengger menceritakan kisah asmara antara Galuh Candra Kirana dan Panji Asmoro Bangun. Galuh Candra Kirana adalah putri dari Prabu Lembu Ami Joyo yang memimpin  Kerajaan Jenggolo Manik, sementara Panji Asmoro Bangun adalah putra dari Prabu Ami Luhur yang memimpin Kerajaan Cenggolo Puro. Kedua kerajaan ini ingin mempererat hubungan dengan menikahkan kedua anak mereka. Sayang, pernikahan tersebut hampir gagal karena usaha Galuh Ajeng (anak Prabu Lembu Ami Joyo dari selirnya).
+             Galuh Candra Kirana harus keluar dari kerajaan dan menjadi penari lengger. Suatu hari, kelompok tari lengger Galuh Candra Kirana diundang main di Kerajaan Cenggolo Puro oleh Panji Asmoro Bangun. Tampil di depan tunangannya, Galuh Candra Kirana memutuskan membuka penyamarannya. Melihat kecantikan Galuh Candra Kirana, Panji Asmoro Bangun langsung jatuh cinta. Pasangan ini kemudian menikah.
+             Tari topeng lengger merupakan tari berpasangan, sesuai dengan nama dan ceritanya. “Topeng” merujuk pada pria, sementara “lengger” kepada wanita. Sementara, secara filosofi, “lengger” berasal dari “lenggeran” yang merupakan kependekan dari “elingo ngger marang gusti pangeran” yang dapat diartikan sebagai ingatlah kamu kepada sang pencipta.
+             Hal ini berkaitan dengan sejarah keberadaan tari topeng lengger. Konon, tari ini diciptakan oleh Sunan Kali Jaga. Sunan Kali Jaga menggunakan tari ini sebagai salah satu sarana menyebarkan agama Islam. Di masa lalu, dalam pertunjukan tari ini selalu diselipkan ajaran agama Islam. Bahkan, karena tari ini berhasil menarik perhatian masyarakat, Sunan Kali Jaga kemudian membangun sebuah tempat sebagai sarana beribadah. Tempat tersebut diberi nama “langgar”.
+
+        </p>
+
+        <!-- untuk merapikan teks yang panjang || ALT + Z -->
+        <iframe width="650" height="315" src="https://www.youtube.com/embed/5t9CxA63lxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <P>
+            Jumlah topeng yang digunakan dalam tari ini berjumlah 120 buah – sesuai dengan jumlah tokoh dalam wayang. Hanya saja, tidak semua topeng digunakan dalam setiap pertunjukan. Digunakan atau tidaknya sebuah topeng dalam pertunjukan sangat bergantung pada  penimbal (pawang). 
+            Peran penimbal dalam tari ini sangat penting. Dia berperan seperti dalang dalam pertunjukan wayang kulit.
+            Sebelum dimulai, penimbal akan menyerahkan sesaji dan membaca doa agar pertunjukan dapat berjalan lancar dan tidak terjadi hal-hal yang tidak diharapkan. Setelah berdoa, penimbal akan mempersilakan para penari masuk ke panggung. Di sinilah penimbal mengatur topeng-topeng yang akan tampil. Hanya saja, yang pasti tampil adalah tokoh Galuh Candra Kirana dan Panji Asmoro Bangun sebagai tokoh utama dan topeng barong (yang tampil sebagai penutup).
+            Dalam tari ini, setiap penari dapat memainkan peran yang berbeda. Perempuan dapat memerankan tokoh pria. Begitu pula sebaliknya, pria dapat memerankan tokoh perempuan.
+            Walau dianggap sebagai tari yang sakral, tidak ada waktu khusus untuk pertunjukan tari ini. Tari topeng lengger dapat dipertunjukan kapan pun dan di manapun, dengan memberikan sesajen sebelum memulai pertunjukan.
+            Selain itu, jika ingin menonton tari ini tidak dianjurkan mengenakan pakaian yang berwarna merah. Saat pertunjukan, para penari akan kerasukan. Dan saat kerasukan, penari akan mengejar siapapun yang mengenakan pakaian berwarna merah.
+            
+            
+             
+        </P>
+
+    </div>
+    <!-- Media Sosial -->
+    <div class="mediasosial">
+        <!-- h4*5 == h4 berjumlah 5 -->
+        <div class="media">
+            <h4>Facebook</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Youtube</h4>
+            <p>Gubug Inovatif</p>
+        </div>
+        <div class="media">
+            <h4>Instagram</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Email</h4>
+            <p>museumgubugwayang@gmail.com</p>
+        </div>
+        <div class="media">
+            <h4>No. HP</h4>
+            <p>085735992258 (sa'dan)</p>
+        </div>
+        <div class="media">
+            <h4>Alamat</h4>
+            <p>jl.kartini 23, kauman ,prajurit kulon, kota Mojokerto</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

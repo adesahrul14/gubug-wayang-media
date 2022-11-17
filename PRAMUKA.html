@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Judul Halaman -->
+    <title>PRAMUKA</title>
+
+    <!-- Menampilkan icon ke jduul halaman -->
+    <link rel="icon" href="gambar/gubug.jpg">
+
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+
+    <style>
+        body {
+            /* mengubah ke tengah */
+            text-align: center;
+            /* warna background body */
+            /* background-color: black; */
+            background-image: url(gambar/batik.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .kotak {
+            /* melengkungkan kotak */
+            border-radius: 20px;
+            /* mengatur lebar kotak */
+            width: 650px;
+            /* garis tepi kotak || 
+                1px => ketebalan garis
+                solid => tipe garis
+                black => warna garis
+            */
+            /* border: 1px solid black; */
+            /* menengahkan kotak */
+            margin: auto;
+            /* memberi jarak kotak dengan konten */
+            padding: 20px;
+            /* memberi warna background kotak */
+            background-color: rgb(146, 0, 0);
+            /* warna teks */
+            color: white;
+        }
+        
+        p {
+            /* ukuran huruf */
+            font-size: 14px;
+            /* mengatur jarak antar baris teks */
+            line-height: 24px;
+        }
+        
+        .gambar {
+            /* mensejajarkan 2 element || contoh : gambar dan tulisan */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* memberi jarak dengan bawah  */
+            margin-bottom: 20px;
+            /* memberi jarak dengan atas */
+            margin-top: 20px;
+        }
+        
+        .nama {
+            /* warna teks gubung wayang */
+            color: white;
+        }
+        
+        iframe {
+            /* Melengkungkan kotak video */
+            border-radius: 20px;
+        }
+        /* Media Sosial */
+        
+        .mediasosial {
+            width: 100%;
+            color: white;
+            /* biar ke samping */
+            display: grid;
+            /* membagi menjadi 3 kolom */
+            grid-template-columns: auto auto auto;
+            /* Memberi jarak dengan kotak atas */
+            margin-top: 80px;
+        }
+        .mediasosial{
+            background-color:rgb(146, 0, 0);
+            border-radius: 10px;)
+        }
+                    
+
+                    
+        .media p {
+            margin-top: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gambar">
+        <img src="gambar/gubug.png" width="70px" alt="" srcset="">
+        <h1 class="nama">Gubug Wayang Media</h1>
+    </div>
+
+    <!-- Kotak judul , deskripsi dan youtube video || pakai Div element || . -->
+    <div class="kotak">
+
+        <!-- Judul pakai H1 -->
+        <h1>PRAMUKA</h1>
+
+        <!-- Deskripsi -->
+        <p>Organisasi kepanduan di Indonesia dimulai oleh adanya cabang “Nederlandsche Padvinders Organisatie” (NPO) pada tahun 1912, yang pada saat pecahnya Perang Dunia I memiliki kwartir besar sendiri serta kemudian berganti nama menjadi “Nederlands-Indische Padvinders Vereeniging” (NIPV) pada tahun 1916.
+
+            Organisasi Kepanduan yang diprakarsai oleh bangsa Indonesia adalah Javaansche Padvinders Organisatie; 
+            berdiri atas prakarsa S.P. Mangkunegara VII pada tahun 1916.
+            Hasrat bersatu bagi organisasi kepanduan Indonesia waktu itu tampak mulai dengan terbentuknya PAPI yaitu “Persaudaraan Antara Pandu Indonesia” merupakan federasi dari Pandu Kebangsaan, INPO, SIAP, NATIPIJ dan PPS pada tanggal 23 Mei 1928.
+            
+            
+            Federasi ini tidak dapat bertahan lama, karena niat adanya fusi, akibatnya pada 1930 berdirilah Kepanduan Bangsa Indonesia (KBI) yang dirintis oleh tokoh dari Jong Java Padvinders/Pandu Kebangsaan (JJP/PK), INPO dan PPS (JJP-Jong Java Padvinderij); PK-Pandu Kebangsaan). 
+            PAPI kemudian berkembang menjadi Badan Pusat Persaudaraan Kepanduan Indonesia (BPPKI) pada bulan April 1938. 
+            Antara tahun 1928-1935 bermuncullah gerakan kepanduan Indonesia baik yang bernapas utama kebangsaan maupun bernapas agama. 
+            
+            Pada masa Perang Dunia II, karena Pramuka merupakan suatu organisasi yang menjunjung tinggi nilai persatuan, oleh karena itulah bangsa Jepang tidak mengizinkan Pramuka di Indonesia.
+            Sebulan sesudah proklamasi kemerdekaan Republik Indonesia, beberapa tokoh kepanduan berkumpul di Yogyakarta dan bersepakat untuk membentuk Panitia Kesatuan Kepanduan Indonesia sebagai suatu panitia kerja, menunjukkan pembentukan satu wadah organisasi </p>
+
+        <!-- untuk merapikan teks yang panjang || ALT + Z -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JOYmDjlZx9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p>
+            kepanduan untuk seluruh bangsa Indonesia dan segera mengadakan Kongres Kesatuan Kepanduan Indonesia.
+Kongres yang dimaksud dilaksanakan pada tanggal 27-29 Desember 1945 di Surakarta dengan hasil terbentuknya Pandu Rakyat Indonesia. 
+Tahun-tahun sulit dihadapi oleh Pandu Rakyat Indonesia karena serbuan Belanda, pada waktu inilah Pandu Rakyat Indonesia mengadakan Kongres II di Yogyakarta pada tanggal 20-22 Januari 1950.
+Kongres ini antara lain memutuskan untuk menerima konsep baru, yaitu memberi kesempatan kepada golongan khusus untuk menghidupakan kembali bekas organisasinya masing-masing dan terbukalah suatu kesempatan bahwa Pandu Rakyat Indonesia bukan lagi satu-satunya organisasi kepanduan di Indonesia dengan keputusan Menteri PP dan K nomor 2344/Kab. tertanggal 6 September 1951 dicabutlah pengakuan pemerintah bahwa Pandu Rakyat Indonesia merupakan satu-satunya wadah kepanduan di Indonesia, jadi keputusan nomor 93/Bag. A tertanggal 1 Februari 1947 itu berakhir sudah. Pada saat inilah tepatnya tanggal 16 September 1951 diputuskan berdirinya Ikatan Pandu Indonesia (IPINDO) sebagai suatu federasi.
+Pada 1953 Ipindo berhasil menjadi anggota kepanduan sedunia.
+Ipindo merupakan federasi bagi organisasi kepanduan putera, sedangkan bagi organisasi puteri terdapat dua federasi yaitu PKPI (Persatuan Kepanduan Puteri Indonesia) dan POPPINDO (Persatuan Organisasi Pandu Puteri Indonesia). Kedua federasi ini pernah bersama-sama menyambut singgahnya Lady Baden-Powell ke Indonesia, dalam perjalanan ke Australia.
+Dalam peringatan Hari Proklamasi Kemerdekaan Republik Indonesia yang ke-10 Ipindo menyelenggarakan Jambore Nasional, bertempat di Ragunan, Pasar Minggu pada tanggal 10-20 Agustus 1955, Jakarta.
+Gerakan Pramuka lahir pada tahun 1961, 
+Peraturan yang timbul pada masa perintisan ini adalah Ketetapan MPRS Nomor II/MPRS/1960, tanggal 3 Desember 1960 tentang rencana pembangunan Nasional Semesta Berencana. Dalam ketetapan ini dapat ditemukan Pasal 330. C. yang menyatakan bahwa dasar pendidikan di bidang kepanduan adalah Pancasila. Seterusnya penertiban tentang kepanduan (Pasal 741) dan pendidikan kepanduan supaya diintensifkan dan menyetujui rencana Pemerintah untuk mendirikan Pramuka (Pasal 349 Ayat 30). Kemudian kepanduan supaya dibebaskan dari sisa-sisa Lord Baden Powell (Lampiran C Ayat 8). Ketetapan itu memberi kewajiban agar Pemerintah melaksanakannya. 
+Karena itulah Pesiden/Mandataris MPRS pada 9 Maret 1961 mengumpulkan tokoh-tokoh dan pemimpin gerakan kepanduan Indonesia, bertempat di Istana Negara. Hari Kamis malam itulah Presiden mengungkapkan bahwa kepanduan yang ada harus diperbaharui, metode dan aktivitas pendidikan harus diganti, seluruh organisasi kepanduan yang ada dilebur menjadi satu yang disebut Pramuka. 
+
+
+        </p>
+
+    </div>
+    <!-- Media Sosial -->
+    <div class="mediasosial">
+        <!-- h4*5 == h4 berjumlah 5 -->
+        <div class="media">
+            <h4>Facebook</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Youtube</h4>
+            <p>Gubug Inovatif</p>
+        </div>
+        <div class="media">
+            <h4>Instagram</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Email</h4>
+            <p>museumgubugwayang@gmail.com</p>
+        </div>
+        <div class="media">
+            <h4>No. HP</h4>
+            <p>085735992258 (sa'dan)</p>
+        </div>
+        <div class="media">
+            <h4>Alamat</h4>
+            <p>JL.kartini 23, kauman, prajurit kulon, kota Mojokerto</p>
+        </div>
+    </div>
+
+</body>
+
+</ht

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Judul Halaman -->
+    <title>TOPENG DALANG PURWA MAHABARATA</title>
+
+    <!-- Menampilkan icon ke jduul halaman -->
+    <link rel="icon" href="gambar/gubug.jpg">
+
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+
+    <style>
+        body {
+            /* mengubah ke tengah */
+            text-align: center;
+            /* warna background body */
+            /* background-color: black; */
+            background-image: url(gambar/batik.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .kotak {
+            /* melengkungkan kotak */
+            border-radius: 20px;
+            /* mengatur lebar kotak */
+            width: 650px;
+            /* garis tepi kotak || 
+                1px => ketebalan garis
+                solid => tipe garis
+                black => warna garis
+            */
+            /* border: 1px solid black; */
+            /* menengahkan kotak */
+            margin: auto;
+            /* memberi jarak kotak dengan konten */
+            padding: 20px;
+            /* memberi warna background kotak */
+            background-color: rgb(146, 0, 0);
+            /* warna teks */
+            color: white;
+        }
+        
+        p {
+            /* ukuran huruf */
+            font-size: 14px;
+            /* mengatur jarak antar baris teks */
+            line-height: 24px;
+        }
+        
+        .gambar {
+            /* mensejajarkan 2 element || contoh : gambar dan tulisan */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* memberi jarak dengan bawah  */
+            margin-bottom: 20px;
+            /* memberi jarak dengan atas */
+            margin-top: 20px;
+        }
+        
+        .nama {
+            /* warna teks gubung wayang */
+            color: white;
+        }
+        
+        iframe {
+            /* Melengkungkan kotak video */
+            border-radius: 20px;
+        }
+        /* Media Sosial */
+        
+        .mediasosial {
+            width: 100%;
+            color: white;
+            /* biar ke samping */
+            display: grid;
+            /* membagi menjadi 3 kolom */
+            grid-template-columns: auto auto auto;
+            /* Memberi jarak dengan kotak atas */
+            margin-top: 80px;
+        }
+        .mediasosial{
+                background-color: rgb(146, 0, 0);
+                border-radius:10px;
+        }
+        .media p {
+            margin-top: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gambar">
+        <img src="gambar/gubug.png" width="70px" alt="" srcset="">
+        <h1 class="nama">GUBUG WAYANG MEDIA</h1>
+    </div>
+
+    <!-- Kotak judul , deskripsi dan youtube video || pakai Div element || . -->
+    <div class="kotak">
+
+        <!-- Judul pakai H1 -->
+        <h1>TOPENG DALANG PURWA MAHABARRATA</h1>
+
+        <!-- Deskripsi -->
+        <p>punokawan merupakan tokoh kestria dalam cerita pewayangan jawa</p>
+
+        <!-- untuk merapikan teks yang panjang || ALT + Z -->
+        <iframe width="650" height="315" src="https://www.youtube.com/embed/5t9CxA63lxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    <!-- Media Sosial -->
+    <div class="mediasosial">
+        <!-- h4*5 == h4 berjumlah 5 -->
+        <div class="media">
+            <h4>Facebook</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Youtube</h4>
+            <p>Gubug Inovatif</p>
+        </div>
+        <div class="media">
+            <h4>Instagram</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Email</h4>
+            <p>museumgubugwayang@gmail.com</p>
+        </div>
+        <div class="media">
+            <h4>No. HP</h4>
+            <p>085735992258 (sa,dan)</p>
+        </div>
+        <div class="media">
+            <h4>Alamat</h4>
+            <p>JL.kartini 23, kauman, prajurit kulon, kota Mojokerto</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+

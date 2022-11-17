@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Judul Halaman -->
+    <title>WAYANG GOLEK CEPAK</title>
+
+    <!-- Menampilkan icon ke jduul halaman -->
+    <link rel="icon" href="gambar/gubug.jpg">
+
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+
+    <style>
+        body {
+            /* mengubah ke tengah */
+            text-align: center;
+            /* warna background body */
+            /* background-color: black; */
+            background-image: url(gambar/batik.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .kotak {
+            /* melengkungkan kotak */
+            border-radius: 20px;
+            /* mengatur lebar kotak */
+            width: 650px;
+            /* garis tepi kotak || 
+                1px => ketebalan garis
+                solid => tipe garis
+                black => warna garis
+            */
+            /* border: 1px solid black; */
+            /* menengahkan kotak */
+            margin: auto;
+            /* memberi jarak kotak dengan konten */
+            padding: 20px;
+            /* memberi warna background kotak */
+            background-color: rgb(146, 0, 0);
+            /* warna teks */
+            color: white;
+        }
+        
+        p {
+            /* ukuran huruf */
+            font-size: 14px;
+            /* mengatur jarak antar baris teks */
+            line-height: 24px;
+        }
+        
+        .gambar {
+            /* mensejajarkan 2 element || contoh : gambar dan tulisan */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* memberi jarak dengan bawah  */
+            margin-bottom: 20px;
+            /* memberi jarak dengan atas */
+            margin-top: 20px;
+        }
+        
+        .nama {
+            /* warna teks gubung wayang */
+            color: white;
+        }
+        
+        iframe {
+            /* Melengkungkan kotak video */
+            border-radius: 20px;
+        }
+        /* Media Sosial */
+        
+        .mediasosial {
+            width: 100%;
+            color: white;
+            /* biar ke samping */
+            display: grid;
+            /* membagi menjadi 3 kolom */
+            grid-template-columns: auto auto auto;
+            /* Memberi jarak dengan kotak atas */
+            margin-top: 80px;
+        }
+        .mediasosial{
+            background-color: rgb(146, 0, 0);
+            border-radius: 10px;
+
+        }
+        .media p {
+            margin-top: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gambar">
+        <img src="gambar/gubug.png" width="70px" alt="" srcset="">
+        <h1 class="nama">GUBUG WAYANG MEDIA</h1>
+    </div>
+
+    <!-- Kotak judul , deskripsi dan youtube video || pakai Div element || . -->
+    <div class="kotak">
+
+        <!-- Judul pakai H1 -->
+        <h1>WAYANG GOLEK CEPAK</h1>
+
+        <!-- Deskripsi -->
+        <p>
+            WAYANG GOELK CEPAK
+Dalam khasanah seni pedalangan Cirebon disamping dikenal genre Wayang Kulit Purwa, terdapat pula jenis seni pertunjukan wayang yang menggunakan boneka berbentuk tiga dimensi yang dikenal dengan sebutan Wayang Golek Cepak atau disebut juga dengan istilah Wayang Golek Papak. Konon istilah wayang ini diabil dari bentuk fisik dari boneka wayang yang cenderung rata pada bagian kepalanya atau dalam istilah jawa papak, dalam bahasa sunda disebut cepak.  Wayang ini tersebar di beberapa wilayah Cirebon bagian timur seperti di Waled, Ciledug, Losari dan Karang Sembung, serta Cirebon bagian barat yang meliputi daerah Kapetakan dan Arjawinangun. Keberadaan wayang Cepak sejak sekitar tahun 1800-an. 
+
+Lakon Wayang Cepak terdiri dari empat jenis, yakni: Lakon Galur, Lakon Babad, Lakon Menak dan Lakon Panji Lakon Galur berpatok pada cerita Mahabarata dan Ramayana. Lakon Babad berpatok pada kitab kuno seperti Kitab Rantai, Kitab Kawedar, Kitab Lugu, Kitab Peteng, Legenda dan Mitos. Lakon Menak berpatok pada cerita timur tengah. 
+
+        </p>
+
+        <!-- untuk merapikan teks yang panjang || ALT + Z -->
+        <iframe width="650" height="315" src="https://www.youtube.com/embed/5t9CxA63lxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <P>
+            Lakon-lakon tersebut sesuai berpatok dengan kitab atau serat yang ada dalam ketradisian masyarakat Cirebon. Jika diresumekan, kisah atau lakon dalam cerita Wayang Golek Cepak adalah:
+        </P>
+
+        <P>
+            1.	Lakon Galur. Adalah bentuk lakon atau cerita yang berpatokan pada epos Ramayana dan Mahabarata atau cerita yang bersumber dari sejarah. Contoh bentuk lakon ini bisa ditemukan pada lakon “Konteya Merad” yang menghubungkan kisah pada masa Mahabarata dengan cerita Babad.
+        </P>
+
+        <P>
+            2.	Lakon Babad. Adalah bentuk cerita yang hidup dan berkembang dimasyarakat yang mengisahkan kejadian atau peristiwa tertentu yang bersumber dari catatan sejarah tempo dulu yang dirangkum dalam bentuk buku atau kitab kuno seperti: Kitab Rantai, Kitab, Kawedar, Kitab Lugu dan Kitab Peteng.
+        </P>
+
+        <P>
+            3.	Lakon Menak. Seperti telah dikatakan di atas bentuk lakon ini bersumber dari cerita yang terdapat di Timur Tengah. Sebagain dalang Wayang Cepak bentuk cerita ini masuk dalam katagori bentuk cerita galur.
+        </P>
+
+        <P>
+            4.	Lakon Panji. Adalah sebuah cerita yang sudah melegenda tidak hanya di Jawa tapi juga dibeberapa tempat lain, seperti Lombok, Sumatra, bahkan hingga ke kawasan Asia seperti di Thailan. Lakon Panji mengisahkan tentang kehidupan sosok Panji yang memiliki latar belakang kerajaan kahuripan, dan Jenggala di Jawa Timur.
+        </P>
+
+        <P>
+            Lakon Panji berpijak pada kisah kehidupan Panji yang berasal dari Jawa Timur, cerita yang terkenal di Cirebon adalah:
+1.	Panji Semirang
+2.	Panji Kudawanengpati
+3.	Panji Gagak Pernala
+4.	Panji Kasmaran
+5.	Panji Wulung
+6.	Panji Udawaning
+7.	Panji Tumang
+8.	Panji Sutra 
+9.	Jaran Sari – Jaran Purnama
+
+
+        </P>
+
+    </div>
+    <!-- Media Sosial -->
+    <div class="mediasosial">
+        <!-- h4*5 == h4 berjumlah 5 -->
+        <div class="media">
+            <h4>Facebook</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Youtube</h4>
+            <p>Gubug Inovatif</p>
+        </div>
+        <div class="media">
+            <h4>Instagram</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Email</h4>
+            <p>museumgubugwayang@gmail.com</p>
+        </div>
+        <div class="media">
+            <h4>No. HP</h4>
+            <p>085735992258 (sa'dan)</p>
+        </div>
+        <div class="media">
+            <h4>Alamat</h4>
+            <p>jl.kartini 23, kauman ,prajurit kulon, kota Mojokerto</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

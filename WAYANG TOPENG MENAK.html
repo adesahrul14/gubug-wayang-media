@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Judul Halaman -->
+    <title>WAYANG TOPENG MENAK</title>
+
+    <!-- Menampilkan icon ke jduul halaman -->
+    <link rel="icon" href="gambar/gubug.jpg">
+
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+
+    <style>
+        body {
+            /* mengubah ke tengah */
+            text-align: center;
+            /* warna background body */
+            /* background-color: black; */
+            background-image: url(gambar/batik.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .kotak {
+            /* melengkungkan kotak */
+            border-radius: 20px;
+            /* mengatur lebar kotak */
+            width: 650px;
+            /* garis tepi kotak || 
+                1px => ketebalan garis
+                solid => tipe garis
+                black => warna garis
+            */
+            /* border: 1px solid black; */
+            /* menengahkan kotak */
+            margin: auto;
+            /* memberi jarak kotak dengan konten */
+            padding: 20px;
+            /* memberi warna background kotak */
+            background-color: rgb(146, 0, 0);
+            /* warna teks */
+            color: white;
+        }
+        
+        p {
+            /* ukuran huruf */
+            font-size: 14px;
+            /* mengatur jarak antar baris teks */
+            line-height: 24px;
+        }
+        
+        .gambar {
+            /* mensejajarkan 2 element || contoh : gambar dan tulisan */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* memberi jarak dengan bawah  */
+            margin-bottom: 20px;
+            /* memberi jarak dengan atas */
+            margin-top: 20px;
+        }
+        
+        .nama {
+            /* warna teks gubung wayang */
+            color: white;
+        }
+        
+        iframe {
+            /* Melengkungkan kotak video */
+            border-radius: 20px;
+        }
+        /* Media Sosial */
+        
+        .mediasosial {
+            width: 100%;
+            color: white;
+            /* biar ke samping */
+            display: grid;
+            /* membagi menjadi 3 kolom */
+            grid-template-columns: auto auto auto;
+            /* Memberi jarak dengan kotak atas */
+            margin-top: 80px;
+        }
+        .mediasosial{
+            background-color:rgb(146, 0, 0);
+            border-radius: 10px;)
+        }
+                    
+
+                    
+        .media p {
+            margin-top: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gambar">
+        <img src="gambar/gubug.png" width="70px" alt="" srcset="">
+        <h1 class="nama">Gubug Wayang Media</h1>
+    </div>
+
+    <!-- Kotak judul , deskripsi dan youtube video || pakai Div element || . -->
+    <div class="kotak">
+
+        <!-- Judul pakai H1 -->
+        <h1>WAYANG TOPENG MENAK</h1>
+
+        <!-- Deskripsi -->
+        <p>
+            WAYANG TOPENG MENAK
+
+Selain wayang yang bersumber dari kakawin Mahabarata & Ramayana yang berasal dari India, terdapat juga jenis wayang yang bersumber dari wilayah lain, misalnya wayang menak. Wayang Menak bersumber dari buku "Serat Menak", yang bila dirunut bersumber dari cerita Persia yaitu kitab "Qissa i Emr Hamza" karya pujangga Persia jaman Sultan Harun Al Rasyid yang telah masuk terlebih dahulu ke dalam wilayah Melayu sebagai Hikayat Amir Hamzah.
+
+Kisah ini kemudian mengalami akulturasi dan gubahan budaya Jawa pertama kali oleh Ki Carik Narawita pada th 1717 atas perintah Kanjeng Ratu Mas Blitar, istri Susuhunan Pakubuwana I, di kraton Kartasura. Saat penulisannya adalah hari Jumat, tanggal 17 bulan Rajab, tahun Dal, wuku Marakeh, mangsa Kasa, dengan sengkalan: Lenging welut rasa purun (1639 AJ atau 1717 AD). Biasa disebut sebagai "Serat Menak Kartasura".
+
+        </p>
+
+        <!-- untuk merapikan teks yang panjang || ALT + Z -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JOYmDjlZx9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <P>
+            Di masa Sri Sunan Paku Buwana II (1726-1749) oleh pujangga Kraton Yasadipura I digubah lagi Serat Menak Yasadipura. Karya ini disusun dalam bentuk tembang macapat.Teks Menak Yasadipura termasuk teks yang terpanjang, dan merupakan saduran langsung dari Menak Kartasura. Teks terdiri dari 5.200 halaman di dalam naskah.
+
+Topeng di Malang juga mengangkat cerita Menak selain juga Panji dan Mahabarata serta Ramayana. Dalam sejarah lisannya, ketika hegemoni  kekuasaan Majapahit berakhir dan digantikan oleh Demak yang berlatar belakang Islam, cerita Tari Topeng juga mengalami pergeseran. Pada masa itu cerita yang berkembang di Tari Topeng adalah cerita Menak yang bercerita tentang Raja-raja dari tanah sabrang yang bercorak Islam.
+
+        </P>
+
+    </div>
+    <!-- Media Sosial -->
+    <div class="mediasosial">
+        <!-- h4*5 == h4 berjumlah 5 -->
+        <div class="media">
+            <h4>Facebook</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Youtube</h4>
+            <p>Gubug Inovatif</p>
+        </div>
+        <div class="media">
+            <h4>Instagram</h4>
+            <p>museumgubugwayang</p>
+        </div>
+        <div class="media">
+            <h4>Email</h4>
+            <p>museumgubugwayang@gmail.com</p>
+        </div>
+        <div class="media">
+            <h4>No. HP</h4>
+            <p>085735992258 (sa'dan)</p>
+        </div>
+        <div class="media">
+            <h4>Alamat</h4>
+            <p>JL.kartini 23, kauman, prajurit kulon, kota Mojokerto</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
