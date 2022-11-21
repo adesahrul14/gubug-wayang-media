@@ -15,7 +15,13 @@
     <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        
         body {
+            margin: 0;
+            padding: 0;
             /* mengubah ke tengah */
             text-align: center;
             /* warna background body */
@@ -29,7 +35,8 @@
             /* melengkungkan kotak */
             border-radius: 20px;
             /* mengatur lebar kotak */
-            width: 650px;
+            width: 100%;
+            max-width: 650px;
             /* garis tepi kotak || 
                 1px => ketebalan garis
                 solid => tipe garis
@@ -72,6 +79,8 @@
         iframe {
             /* Melengkungkan kotak video */
             border-radius: 20px;
+            width: 560px;
+            height: 315px;
         }
         /* Media Sosial */
         
@@ -85,14 +94,31 @@
             /* Memberi jarak dengan kotak atas */
             margin-top: 80px;
         }
-        .mediasosial{
-            background-color:rgb(146, 0, 0);
+        
+        .mediasosial {
+            background-color: rgb(146, 0, 0);
             border-radius: 10px;
             width: 100%;
         }
-                    
-
-                    
+        
+        @media screen and (max-width: 768px) {
+            .mediasosial {
+                grid-template-columns: auto;
+            }
+            .kotak {
+                width: 100%;
+            }
+            iframe {
+                /* Melengkungkan kotak video */
+                border-radius: 20px;
+                width: 100%;
+                height: 275px;
+            }
+            .nama {
+                font-size: 24px;
+            }
+        }
+        
         .media p {
             margin-top: -20px;
         }
@@ -112,18 +138,26 @@
         <h1>POTEHI</h1>
 
         <!-- Deskripsi -->
-        <p>Wayang Potehi merupakan wayang tiga dimensi yang dikenal di Jawa sejak abad XVI-XVII, hal ini tertera dalam Serat Nawaruci. Dalam tradisi lisannya, wayang ini dibawa oleh suku Hokkian ke pulau Jawa. Clara Van Groenendel menjelaskan pada mulanya fungsi wayang Potehi digunakan untuk mengusir hantu.  Potehi sendiri berasal dari kata, Pouw Tee Hie; Pouw Tee berarti kantung dan Hiee berarti sandiwara, istilah Pouw Tee Hie berasal dari Bahasa dialek Hokkian. Denys Lombart menyebutkan bahwa pertunjukan Potehi dinegeri leluhurnya disebut juga dengan istilah Budaixi yang berasal dari kata Budai (kantung) dan Xi (drama atau wayang). Budaixi adalah istilah dari Bahasa Mandarin yang merupakan Bahasa nasional Cina saat ini. Dalam tafsir yang lain, Potehi berasal dari kata Poo yang berarti kain; Tay yang berarti kantung dan Hie yang berarti wayang. Dengan demikian Potehi adalah wayang sarung tangan atau teater boneka sarung tangan. 
-            Potehi dikenal dengan beberapa julukan; Tjiang Tiong Hie (teater dengan telapak tangan di dalamnya), Cloth Bag Theater (teater dengan pakaian seperti kantung), Art on the Palm (kesenian dengan telapak tangan), Finger Puppet Show (boneka jari tangan). Kamus Besar Bahasa Tionghoa mengatakan bahwa Potehi adalah boneka kayu dengan kantong kain, suatu jenis wayang golek. Boneka kayu Potehi agak kecil, bagian kepala bersambung dengan kantong kain, diluarnya dikenakan pakaian panggung. Tangan seniman dimasukkan ke dalam kantong untuk mengendalikan gerak boneka, maka dinamakan pula boneka tangan. 
+        <p>Wayang Potehi merupakan wayang tiga dimensi yang dikenal di Jawa sejak abad XVI-XVII, hal ini tertera dalam Serat Nawaruci. Dalam tradisi lisannya, wayang ini dibawa oleh suku Hokkian ke pulau Jawa. Clara Van Groenendel menjelaskan pada mulanya
+            fungsi wayang Potehi digunakan untuk mengusir hantu. Potehi sendiri berasal dari kata, Pouw Tee Hie; Pouw Tee berarti kantung dan Hiee berarti sandiwara, istilah Pouw Tee Hie berasal dari Bahasa dialek Hokkian. Denys Lombart menyebutkan bahwa
+            pertunjukan Potehi dinegeri leluhurnya disebut juga dengan istilah Budaixi yang berasal dari kata Budai (kantung) dan Xi (drama atau wayang). Budaixi adalah istilah dari Bahasa Mandarin yang merupakan Bahasa nasional Cina saat ini. Dalam tafsir
+            yang lain, Potehi berasal dari kata Poo yang berarti kain; Tay yang berarti kantung dan Hie yang berarti wayang. Dengan demikian Potehi adalah wayang sarung tangan atau teater boneka sarung tangan. Potehi dikenal dengan beberapa julukan; Tjiang
+            Tiong Hie (teater dengan telapak tangan di dalamnya), Cloth Bag Theater (teater dengan pakaian seperti kantung), Art on the Palm (kesenian dengan telapak tangan), Finger Puppet Show (boneka jari tangan). Kamus Besar Bahasa Tionghoa mengatakan
+            bahwa Potehi adalah boneka kayu dengan kantong kain, suatu jenis wayang golek. Boneka kayu Potehi agak kecil, bagian kepala bersambung dengan kantong kain, diluarnya dikenakan pakaian panggung. Tangan seniman dimasukkan ke dalam kantong untuk
+            mengendalikan gerak boneka, maka dinamakan pula boneka tangan.
         </p>
-        
+
 
         <!-- untuk merapikan teks yang panjang || ALT + Z -->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/RDiZ7rWoKRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <p>
-            Pertunjukan teater boneka Potehi, konon bermula pada zaman Dinasti Han (206 SM – 220 M) dan Dinasti Song (960 M – 1279 M). Potehi sangat popular di sekitar Fujian Selatan dan Taiwan. Dialog dan nyanyian menggunakan dialek Fujian Selatan, diiringi dengan musik. Di daerah Quanzhou dengan musik Nanqu, sedang di daerah Zhuangzhou mula-mula dengan musik Jiangdiao kemudian ganti menggunakan lagu Opera Xiangju. 
-Abad XVI di Jawa telah dikenal pertunjukan wayang Cina, hal tersebut tertuang dalam Serat Nawaruci: Anggambuh, amancangah, allangkarn mwang awayang Cina. Bahkan di Malat disebutkan: Amancangah, angringgit Cina. Pertunjukan wayang Cina atau Potehi banyak digelar oleh para imigran Cina di pelosok-pelosok pedalaman Jawa dan pesisiran, seperti: Tuban, Surabaya, Semarang, Pekalongan, Jakarta. Musik untuk pertunjukan Potehi adalah Erhu, Hian Na, San Hsien, Terompet, Seruling, Drum, Gembreng, Qin / Yang Qim, Piak Ko. Harmoni alat musik inilah yang menghantarkan pertunjukan wayang Potehi semakin digemari oleh masyarakat Nusantara. 
- 
+            Pertunjukan teater boneka Potehi, konon bermula pada zaman Dinasti Han (206 SM – 220 M) dan Dinasti Song (960 M – 1279 M). Potehi sangat popular di sekitar Fujian Selatan dan Taiwan. Dialog dan nyanyian menggunakan dialek Fujian Selatan, diiringi dengan
+            musik. Di daerah Quanzhou dengan musik Nanqu, sedang di daerah Zhuangzhou mula-mula dengan musik Jiangdiao kemudian ganti menggunakan lagu Opera Xiangju. Abad XVI di Jawa telah dikenal pertunjukan wayang Cina, hal tersebut tertuang dalam Serat
+            Nawaruci: Anggambuh, amancangah, allangkarn mwang awayang Cina. Bahkan di Malat disebutkan: Amancangah, angringgit Cina. Pertunjukan wayang Cina atau Potehi banyak digelar oleh para imigran Cina di pelosok-pelosok pedalaman Jawa dan pesisiran,
+            seperti: Tuban, Surabaya, Semarang, Pekalongan, Jakarta. Musik untuk pertunjukan Potehi adalah Erhu, Hian Na, San Hsien, Terompet, Seruling, Drum, Gembreng, Qin / Yang Qim, Piak Ko. Harmoni alat musik inilah yang menghantarkan pertunjukan
+            wayang Potehi semakin digemari oleh masyarakat Nusantara.
+
 
 
         </p>
