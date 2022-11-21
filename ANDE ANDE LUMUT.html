@@ -14,86 +14,7 @@
 
     <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
 
-    <style>
-        body {
-            /* mengubah ke tengah */
-            text-align: center;
-            /* warna background body */
-            /* background-color: black; */
-            background-image: url(gambar/batik.jpg);
-            background-size: cover;
-            background-attachment: fixed;
-        }
-        
-        .kotak {
-            /* melengkungkan kotak */
-            border-radius: 20px;
-            /* mengatur lebar kotak */
-            width: 650px;
-            /* garis tepi kotak || 
-                1px => ketebalan garis
-                solid => tipe garis
-                black => warna garis
-            */
-            /* border: 1px solid black; */
-            /* menengahkan kotak */
-            margin: auto;
-            /* memberi jarak kotak dengan konten */
-            padding: 20px;
-            /* memberi warna background kotak */
-            background-color: rgb(146, 0, 0);
-            /* warna teks */
-            color: white;
-        }
-        
-        p {
-            /* ukuran huruf */
-            font-size: 14px;
-            /* mengatur jarak antar baris teks */
-            line-height: 24px;
-        }
-        
-        .gambar {
-            /* mensejajarkan 2 element || contoh : gambar dan tulisan */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            /* memberi jarak dengan bawah  */
-            margin-bottom: 20px;
-            /* memberi jarak dengan atas */
-            margin-top: 20px;
-        }
-        
-        .nama {
-            /* warna teks gubung wayang */
-            color: white;
-        }
-        
-        iframe {
-            /* Melengkungkan kotak video */
-            border-radius: 20px;
-        }
-        /* Media Sosial */
-        
-        .mediasosial {
-            width: 100%;
-            color: white;
-            /* biar ke samping */
-            display: grid;
-            /* membagi menjadi 3 kolom */
-            grid-template-columns: auto auto auto;
-            /* Memberi jarak dengan kotak atas */
-            margin-top: 80px;
-        }
-        .mediasosial{
-            background-color: rgb(146, 0, 0);
-            border-radius: 10px;
-
-        }
-        .media p {
-            margin-top: -20px;
-        }
-    </style>
+    <link rel="stylesheet" href="stylesheets/index.css">
 </head>
 
 <body>
@@ -109,19 +30,25 @@
         <h1>ANDE ANDE LUMUT</h1>
 
         <!-- Deskripsi -->
-        <p>Ande Ande Lumut adalah cerita rakyat yang berasal dari Jawa. Cerita ini dikenal dalam berbagai versi. Versi yang banyak dikenal dan "tradisional" adalah yang mengaitkannya dengan bersatunya (kembali) Kerajaan Jenggala dan Kediri.
-            Cerita ini mengisahkan tentang Pangeran Kusumayuda (dianggap sebagai personifikasi Kamesywara, raja Kadiri) yang bertemu dengan Kleting Kuning (bahasa Jawa: Klething Kuning), si bungsu dari empat bersaudara anak seorang janda yang tinggal di salah satu desa bawahan ayah Pangeran Kusumayuda memerintah. Kleting Kuning sebenarnya adalah anak angkat, yaitu putri dari Kerajaan Jenggala, yang kelak dikenal sebagai Dewi Candrakirana. Diam-diam mereka saling mengingat. Dalam hati, Pangeran Kusumayuda tahu, gadis seharum bunga mawar itu adalah calon permaisuri Kerajaan Banyuarum yang paling sempurna. Sayang, mereka tak pernah bertemu lagi. Beberapa tahun kemudian, seorang pemuda tampan bernama Ande Ande Lumut mengumumkan bahwa dia sedang mencari istri. Tak seperti gadis-gadis desa lain, termasuk juga saudara-saudara Kleting Kuning, Kleting Kuning enggan pergi sebab dia masih mengingat Pangeran Kusumayuda. Namun berkat nasihat dari bangau ajaib penolongnya, maka akhirnya Kleting Kuning pun turut serta.
-            
-             </p>
+        <p>Ande Ande Lumut adalah cerita rakyat yang berasal dari Jawa. Cerita ini dikenal dalam berbagai versi. Versi yang banyak dikenal dan "tradisional" adalah yang mengaitkannya dengan bersatunya (kembali) Kerajaan Jenggala dan Kediri. Cerita ini mengisahkan
+            tentang Pangeran Kusumayuda (dianggap sebagai personifikasi Kamesywara, raja Kadiri) yang bertemu dengan Kleting Kuning (bahasa Jawa: Klething Kuning), si bungsu dari empat bersaudara anak seorang janda yang tinggal di salah satu desa bawahan
+            ayah Pangeran Kusumayuda memerintah. Kleting Kuning sebenarnya adalah anak angkat, yaitu putri dari Kerajaan Jenggala, yang kelak dikenal sebagai Dewi Candrakirana. Diam-diam mereka saling mengingat. Dalam hati, Pangeran Kusumayuda tahu, gadis
+            seharum bunga mawar itu adalah calon permaisuri Kerajaan Banyuarum yang paling sempurna. Sayang, mereka tak pernah bertemu lagi. Beberapa tahun kemudian, seorang pemuda tampan bernama Ande Ande Lumut mengumumkan bahwa dia sedang mencari istri.
+            Tak seperti gadis-gadis desa lain, termasuk juga saudara-saudara Kleting Kuning, Kleting Kuning enggan pergi sebab dia masih mengingat Pangeran Kusumayuda. Namun berkat nasihat dari bangau ajaib penolongnya, maka akhirnya Kleting Kuning pun
+            turut serta.
+
+        </p>
 
         <!-- untuk merapikan teks yang panjang || ALT + Z -->
         <iframe width="650" height="315" src="https://www.youtube.com/embed/5t9CxA63lxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <p>Dalam perjalanannya, ternyata mereka harus menyeberangi sungai yang lebar. Pada saat itu, muncullah penjaga sungai berwujud yuyu raksasa bernama Yuyu Kangkang. Yuyu Kangkang menawarkan jasa untuk menyeberangkan mereka dengan catatan diberi imbalan bersedia dicium olehnya setelah diseberangkan. Karena terburu-terburu, semua gadis-gadis desa yang lain segera saja menyetujuinya, dengan pemikiran bahwa sang pangeran tidak akan mengetahuinya. Hanya si bungsu Kleting Kuning yang menolak untuk dicium Yuyu Kangkang. Ketika Yuyu Kangkang bermaksud memangsanya, Kleting Kuning melawannya dengan senjata yang dititipkan oleh ibunya. Karena hanya si bungsu yang tidak dicium Yuyu Kangkang, jadilah Ande Ande Lumut memilih si bungsu sebagai pendampingnya. Barulah saat itu Kleting Kuning menyadari bahwa pemuda Ande Ande Lumut adalah Pangeran Kusumayuda, pemuda idamannya.
+        <p>Dalam perjalanannya, ternyata mereka harus menyeberangi sungai yang lebar. Pada saat itu, muncullah penjaga sungai berwujud yuyu raksasa bernama Yuyu Kangkang. Yuyu Kangkang menawarkan jasa untuk menyeberangkan mereka dengan catatan diberi imbalan
+            bersedia dicium olehnya setelah diseberangkan. Karena terburu-terburu, semua gadis-gadis desa yang lain segera saja menyetujuinya, dengan pemikiran bahwa sang pangeran tidak akan mengetahuinya. Hanya si bungsu Kleting Kuning yang menolak untuk
+            dicium Yuyu Kangkang. Ketika Yuyu Kangkang bermaksud memangsanya, Kleting Kuning melawannya dengan senjata yang dititipkan oleh ibunya. Karena hanya si bungsu yang tidak dicium Yuyu Kangkang, jadilah Ande Ande Lumut memilih si bungsu sebagai
+            pendampingnya. Barulah saat itu Kleting Kuning menyadari bahwa pemuda Ande Ande Lumut adalah Pangeran Kusumayuda, pemuda idamannya. Sekali lagi dari cerita ini,kita bisa melihat begitu tingginya setandar moral yang di tetapkan.Bagaimana para
+            perempuan tidak dengan mudah memberikan diri mereka untuk meraih satu tujuan dan bagaimana kita tidak mengorbankan harga diri untuk meraih segala tujuan.Walaupun tujuan itu baik,tetapi harus diperhatikan. Kita sudah kehilangan jati diri kita.
 
-            Sekali lagi dari cerita ini,kita bisa melihat begitu tingginya setandar moral yang di tetapkan.Bagaimana para perempuan tidak dengan mudah memberikan diri mereka untuk meraih satu tujuan dan bagaimana kita tidak mengorbankan harga diri untuk meraih segala tujuan.Walaupun tujuan itu baik,tetapi harus diperhatikan. Kita sudah kehilangan jati diri kita.
-            
-            </p>
+        </p>
 
     </div>
     <!-- Media Sosial -->
