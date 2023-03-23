@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(gambar/ruhan.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.kotak {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.gambar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nama
+{
+    color: rgb(163, 5, 5);
+}
+
+.iframe 
+        {
+            border-radius: 20px;
+            width: 560px;
+            height: 315px;
+        }
